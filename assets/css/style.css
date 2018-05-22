@@ -1,0 +1,40 @@
+div {
+	background-color: lightyellow;
+	margin: 10px;
+    float: center;
+}
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.stardust {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}s
+
+.container {
+    color: blue;
+}
+
+.question{
+    font-weight: 400;
+}
+
+.answers {
+  margin-bottom: 20px;
+}
+
+#submit{
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #008000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
