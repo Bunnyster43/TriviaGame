@@ -1,3 +1,4 @@
+//* time code
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     setInterval(function () {
@@ -18,8 +19,10 @@ function startTimer(duration, display) {
 window.onload = function () {
     var oneMinutesThirty = 90 * 1,
         display = document.querySelector('#time');
-    startTimer(oneMinutesThirty, display);
+        startTimer(oneMinutesThirty, display);
 };
+
+//* quiz code
 (function() {
   function buildQuiz() {
 
@@ -79,85 +82,56 @@ window.onload = function () {
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Sample question 1?",
+      question: "What year did Jurassic Park come out?",
       answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
+        a: "1993",
+        b: "1998",
+        c: "1990",
+        d: "1995",
       },
-      correctAnswer: "?"
+      correctAnswer: "a"
     },
     {
-      question: "Sample question 2?",
+      question: "Who starred in Titanic?",
       answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
+        a: "Johnny Depp",
+        b: "Jet Li",
+        c: "Robert Downey Jr.",
+        d: "Leonardo DiCaprio",
       },
-      correctAnswer: "?"
+      correctAnswer: "d"
     },
     {
-      question: "Sample question 3?",
+      question: "Who directed The Matrix?",
       answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
+        a: "Cameron",
+        b: "Disney",
+        c: "Wachowski",
+        d: "Columbus",
       },
-      correctAnswer: "?"
+      correctAnswer: "c"
     },
     {
-      question: "Sample question 4?",
+      question: "The Silence Of The Lambs Is about:",
       answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
+        a: "Hannibal ",
+        b: "Gump",
+        c: "Neo",
+        d: "Sparta",
       },
-      correctAnswer: "?"
+      correctAnswer: "a"
     },
     {
-      question: "Sample question 5?",
+      question: "Groundhog Day is:",
       answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
+        a: "good movie",
+        b: "bad movie",
+        c: "ok movie",
+        d: "great movie",
       },
-      correctAnswer: "?"
+      correctAnswer: "d"
     },
-    {
-      question: "Sample question 6?",
-      answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
-      },
-      correctAnswer: "?"
-    },
-    {
-      question: "Sample question 7?",
-      answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
-      },
-      correctAnswer: "?"
-    },
-    {
-      question: "Sample question 8?",
-      answers: {
-        a: "a",
-        b: "b",
-        c: "d",
-        d: "c",
-      },
-      correctAnswer: "?"
-    },
+
   ];
 
   buildQuiz();
