@@ -12,6 +12,7 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = duration;
+            alert("game over")
         }
     }, 1000);
 }
